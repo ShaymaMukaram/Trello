@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Courgette");
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*nav*/
+.logo {
+  font-family: "Courgette", cursive;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-right: 20em;
+}
+.log-icon {
+  padding-right: 0.4rem;
+}
+.part1 {
+  height: 45px;
+  background-color: #026aa7;
+}
+.home {
+  display: flex;
+}
+.left {
+  padding-top: 7px;
+  padding-right: 25px;
+}
+.color {
+  background-color: #4d95bf;
+}
+input {
+  background-color: #4d95bf;
+}
+.icon_side {
+  display: flex;
+  flex-direction: row;
+  margin-right: 1em;
+}
+.icon {
+  color: white;
+}
