@@ -49,8 +49,10 @@ input {
   top: 53px;
   float: left;
   margin: 10px;
-  background-color: gray;
-  color: white;
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  border-radius: 10px 15px;
 }
 .droppable {
   width: 250px;
@@ -59,9 +61,9 @@ input {
   margin: 10px;
   box-sizing: border-box;
   background-color: lightgray;
-  color: white;
 }
 .droppable > p {
-  font-size: 23px;
-  margin-top: 4px;
+  position: absolute;
+  font-size: 20px;
+  color: black;
 }
