@@ -1,16 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Courgette");
-
-body {
+* {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+}
+body {
+  width: 100%;
 }
 /*nav*/
 .logo {
   font-family: "Courgette", cursive;
   margin: 0 auto;
   padding-top: 5px;
-  padding-right: 20em;
+  padding-right: 305px;
 }
 .log-icon {
   padding-right: 0.4rem;
@@ -39,4 +41,27 @@ input {
 }
 .icon {
   color: white;
+}
+#draggable {
+  width: 245px;
+  height: 50px;
+  padding: 1em;
+  top: 53px;
+  float: left;
+  margin: 10px;
+  background-color: gray;
+  color: white;
+}
+.droppable {
+  width: 250px;
+  height: 300px;
+  padding: 0.5em;
+  margin: 10px;
+  box-sizing: border-box;
+  background-color: lightgray;
+  color: white;
+}
+.droppable > p {
+  font-size: 23px;
+  margin-top: 4px;
 }
